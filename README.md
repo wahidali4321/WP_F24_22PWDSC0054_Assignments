@@ -19,7 +19,7 @@ Welcome to my repository for the Web Development course at UET Peshawar. This re
 
 **Name:** Wahid Ali  
 **Program:** Data Science  
-**Registration**: 22PWDSC0054
+**Registration**: 22PWDSC0054<br>
 **University:** UET Peshawar  
 
 I am a passionate student exploring the field of Data Science, with a keen interest in web development. This repository serves as a reflection of my journey and the skills I've acquired during the course.
