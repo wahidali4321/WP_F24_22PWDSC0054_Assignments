@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body and Font Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #090909;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #f1f3f6;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1em; /* Used gap for spacing */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #0056b3;
+}
+
+/* Main Section Styles */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+/* Workout Section Layout */
+.workout-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.text-content {
+    flex: 2;
+}
+
+.text-content h2 {
+    color: #0056b3;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.image-content {
+    flex: 1;
+}
+
+.image-content img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Ordered and Unordered Lists */
+ol, ul {
+    margin-left: 1.5em;
+}
+
+ol li, ul li {
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+/* Emphasis on Descriptions and Benefits */
+strong {
+    color: #333;
+}
+
+em {
+    font-style: italic;
+    color: #0056b3;
+}
+
+/* Gallery Section Styling */
+.gallery-section {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery figure {
+    flex: 1 1 calc(33% - 40px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background-color: #fff;
+}
+
+.gallery figure:hover {
+    transform: scale(1.05);
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+/* Contact Section Layout */
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Form Styling */
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background-color: #c9302c;
+}
+
+/* Contact Info Styling */
+.contact-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.contact-info h3 {
+    margin-top: 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #d9534f;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #634949;
+    color: #1606f4;
+    padding: 1em;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+footer p {
+    padding: 10px;
+    background-color: #f5f5f6;
+    border-radius: 5px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 0.5em;
+}
+
+.footer-links li a {
+    color: #3405f0;
+    text-decoration: none;
+}
